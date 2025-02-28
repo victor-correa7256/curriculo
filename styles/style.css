@@ -69,7 +69,8 @@ div.bolha{
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  box-shadow: inset 0px 0px 20px black
+  box-shadow: inset 0px 0px 20px black;
+  z-index: 2
   
   
 }
