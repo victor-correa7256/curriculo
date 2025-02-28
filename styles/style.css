@@ -62,7 +62,7 @@ header p {
 }
 div.bolha{
   position: absolute;
-  background: purple
+  background: purple url(../imagens/mar.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
