@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  
+}
+.imgnav{
+  width: 50em;
+  height: 50em;
+  display: block;
+  margin: auto;
+  padding-top: 10em
+}
+html,body{
+}
+#logo{
+  width: 270px;
+  height: 270px;
+  position: relative
+}
+#vic{
+  width: 90vw;
+  padding-top: 50px;
+  position: relative;
+  left: -5em
+}
+header{
+  background: blue;
+  height: 109em;
+  overflow: hidden;
+  
+}
+
+#o{
+  color: lightblue;
+  z-index: 2;
+}
+header h1{
+  font-size: 8em;
+  position: relative;
+  z-index: 2
+}
+main h1{
+  font-size: 7em;
+  text-align: center
+}
+main a{
+  box-sizing: border-box;
+  border: 3px solid blue;
+  background: blue;
+  font-size: 6em;
+  padding: 20px;
+  border-radius: 70px;
+  width: 4.95em;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  color: white;
+  text-decoration: none
+}
+header p {
+  font-size: 4em;
+  position: relative
+}
+div.bolha{
+  position: absolute;
+  background: blue url("../imagens/mar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-shadow: inset 0px 0px 20px black
+  
+  
+}
+#b1{
+  left: 30%;
+  top: 2%;
+  width: 40em;
+  height: 60em;
+}
+header p{
+  margin-bottom: 15px;
+  z-index: 10
+}
+header section{
+  padding-left: 50px
+}
+main a:hover{
+  background: white;
+  color: blue;
+  transition: 0.3s
+}
